@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<Softy>
+		<Info type="Template">
+			<Softy.NAME>Layla</Softy.NAME>
+			<Softy.BACK>#bb3f78</Softy.BACK>
+			<Softy.FORE>#bb3f78</Softy.FORE>
+			<Softy.SUMMARY>Layla is a light, gyno-centered theme.</Softy.SUMMARY>
+			<Softy.MIN_VERSION>14</Softy.MIN_VERSION>
+			<Softy.MIN_PRO>14</Softy.MIN_PRO>			<Softy.WALLPAPER_PATH>no-wall</Softy.WALLPAPER_PATH>
+			<Softy.WALLPAPER_NAME>no-wall</Softy.WALLPAPER_NAME>
+			<Softy.ICON_PACK>com.tupe.glitter.icon.pack</Softy.ICON_PACK>
+			<Softy.THEME>light</Softy.THEME>
+		</Info>
+	</Softy>
