@@ -5,14 +5,16 @@ def create():
 	summary = raw_input("Template Summary: ")
 	back = raw_input("Template background: ")
 	fore = raw_input("Template foreground: ")
-	min_version = raw_input("Minimum Softy Version: ")
+	min_version = raw_input("Minimum Softy Version: (required)")
+	min_pro = raw_input("Minimum Softy PRO Version: (required)")
 	print("This next one will ask for wallpaper. You can use url: for url\n and you can use path: for ones on sdcard. You can also use no-wall for no wallpaper.")
 	wallpaper = raw_input("Template Wallpaper: ")
 	wallpaper_name = raw_input("Wallpaper Name: ")
 	icon_pack = raw_input("Icon Pack Package: (use none if for no IC Pack) ")
 	store_to = raw_input("Where to store (on PC): ")
 	xml_name = raw_input("xml name (without .xml) : ")
-		
+	
+	
 	xml = open(store_to+"/"+xml_name+".xml","w")
 	xml.write('<?xml version="1.0" encoding="utf-8" ?>\n')
 	xml.write('	<Softy>\n')
@@ -22,6 +24,7 @@ def create():
 	xml.write('			<Softy.FORE>'+fore+'</Softy.FORE>\n')
 	xml.write('			<Softy.SUMMARY>'+summary+'</Softy.SUMMARY>\n')
 	xml.write('			<Softy.MIN_VERSION>'+min_version+'</Softy.MIN_VERSION>\n')
+	xml.write('			<Softy.MIN_PRO>'+min_pro+'</Softy.MIN_PRO>')
 	xml.write('			<Softy.WALLPAPER_PATH>'+wallpaper+'</Softy.WALLPAPER_PATH>\n')
 	xml.write('			<Softy.WALLPAPER_NAME>'+wallpaper_name+'</Softy.WALLPAPER_NAME>\n')
 	xml.write('			<Softy.ICON_PACK>'+icon_pack+'</Softy.ICON_PACK>\n')
