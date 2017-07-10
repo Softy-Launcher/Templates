@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<Softy>
+		<Info type="Template">
+			<Softy.NAME>Green</Softy.NAME>
+			<Softy.BACK>#249875</Softy.BACK>
+			<Softy.FORE>#249875</Softy.FORE>
+			<Softy.SUMMARY>Go green</Softy.SUMMARY>
+			<Softy.MIN_VERSION>1</Softy.MIN_VERSION>
+			<Softy.THEME>dark</Softy.THEME>
+		</Info>
+	</Softy>
